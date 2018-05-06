@@ -7,7 +7,7 @@ def line(katz_deli)
     print "The line is currently: "
     katz_deli.each_with_index do |name, index|
       line_number = index + 1
-      print "#{index}. #{name} "
+      print "#{line_number}. #{name} "
     end
   end
 end
