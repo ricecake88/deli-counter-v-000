@@ -9,6 +9,7 @@ def line(katz_deli)
       line_number = index + 1
       print "#{line_number}. #{name} "
     end
+    print "\n"
   end
 end
 
