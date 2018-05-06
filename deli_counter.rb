@@ -23,5 +23,7 @@ def now_serving(katz_deli)
   katz_deli.shift
 end
 
-#katz_deli = []
-#take_a_number(katz_deli, "Ada")
+katz_deli = []
+take_a_number(katz_deli, "Logan")
+take_a_number(katz_deli, "Ada")
+take_a_number(katz_deli, "Stephen")
