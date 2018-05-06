@@ -9,7 +9,7 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.push("name")
   index = katz_deli[name].index;
-  puts "Welcome, #{name}. You are number "
+  puts "Welcome, #{name}. You are number #{index+1}"
 end
 
 katz_deli = []
