@@ -18,5 +18,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.count}."
 end
 
+def now_serving(katz_deli)
+  puts "Currently serving #{katz_deli.first}"
+  katz_deli.shift
+end
+
 #katz_deli = []
 #take_a_number(katz_deli, "Ada")
